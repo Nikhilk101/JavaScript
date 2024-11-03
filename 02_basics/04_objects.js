@@ -49,4 +49,34 @@ tinderUser.email = "gamil.com"
   console.log(Object.values(tinderUser))
   console.log(Object.entries(tinderUser))
   console.log(tinderUser.hasOwnProperty(isLoggedIn))
-  
+
+
+
+  const course = {
+    course: "science",
+    price:"999",
+    instructorName: "Nikhil"
+
+  }
+
+  //course.instructorName
+// another syntax
+const {instructorName:instructor} = course // here changing instructorName to Instructor
+//console.log(instructorName)
+console.log(instructor)
+
+
+// Api
+
+{
+    name: "Nikhil",
+    age : 24,
+    email: "gmail.com"
+}
+
+// Api in array format
+[
+    {},
+    {},
+    {},
+]
